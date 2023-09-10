@@ -1,11 +1,10 @@
-import React from "react";
-import "./App.css";
-import PdfViewer from "./components/PDFViewer";
+import React, { useState } from "react";
+import PdfViewer from "./components/pdfviewer/PDFViewer";
 
 function App() {
   return (
-    <div className="App">
-      <PdfViewer />
+    <div>
+      <PdfViewer></PdfViewer>
     </div>
   );
 }
