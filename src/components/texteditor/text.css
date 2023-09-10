@@ -1,0 +1,55 @@
+/* Smoky Theme Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .editor-container {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  .save
+  {
+    margin: 10px;
+    background: green;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+  }
+  .editor-toolbar {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+  }
+  
+  .button-save {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .button-save:hover {
+    background-color: #0056b3;
+  }
+  
+  .ql-editor {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    min-height: 300px; /* Adjust the height as needed */
+  }
+  

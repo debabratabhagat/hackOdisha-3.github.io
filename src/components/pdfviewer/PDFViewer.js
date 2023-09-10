@@ -33,10 +33,10 @@ function PdfViewer() {
   const newPlugin = defaultLayoutPlugin();
 
   return (
-    <div>
+    <div className="container">
       <h1>PDF Viewer</h1>
       <form onSubmit={handleSubmit}>
-        <input type="file" accept=".pdf" onChange={handleFileChange} />
+        <input className="choosefile" type="file" accept=".pdf" onChange={handleFileChange} />
         <button type="submit">View</button>
       </form>
       <div className="pdfContainer">

@@ -1,0 +1,72 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body style */
+  body {
+    background-color: #282a36; /* Dracula theme background color */
+    color: #f8f8f2; /* Dracula theme text color */
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navbar style */
+  .navbar {
+    margin: 20px auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #44475a; /* Dracula theme navbar background color */
+    padding: 10px 0;
+    position: sticky; /* Sticky navbar at the top */
+    top: 0;
+  }
+  
+  .navbar div {
+    font-size: 24px; /* Navbar heading font size */
+    color: #f8f8f2; /* Navbar heading text color */
+    text-align: center; /* Center the text horizontally */
+  }
+  
+  /* Container style */
+  .Container {
+    margin-top: 80px; /* Margin to separate navbar and icon */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Icon style */
+  i.icon {
+    font-size: 100px; /* Enlarge the icon */
+    color: #ff79c6; /* Dracula theme icon color */
+  }
+  .links{
+    justify-content: space-around;
+  }
+
+  Link{
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column; /* Stack navbar items on smaller screens */
+    }
+  
+    .navbar div {
+      font-size: 18px; /* Smaller font size on smaller screens */
+      margin-top: 10px; /* Spacing between navbar elements */
+    }
+  
+    /* Adjust margin-top for smaller screens */
+    .Container {
+      margin-top: 120px;
+    }
+  }
+  
